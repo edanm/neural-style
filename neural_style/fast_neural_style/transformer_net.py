@@ -6,6 +6,9 @@ from keras.layers import Input, Conv2D, Activation, Lambda, UpSampling2D, merge
 from keras.models import Model
 from keras.engine.topology import Layer
 
+import sys
+import os
+sys.path.append(os.path.abspath("../"))
 from neural_style.utils import floatX
 
 

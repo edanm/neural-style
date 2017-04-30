@@ -8,6 +8,9 @@ import theano.tensor as T
 import numpy as np
 from tqdm import tqdm
 
+import sys
+import os
+sys.path.append(os.path.abspath("../"))
 from neural_style.utils import *
 from neural_style.fast_neural_style.batch_generator import BatchGenerator
 from neural_style.fast_neural_style.transformer_net import get_transformer_net

@@ -6,6 +6,9 @@ import theano.tensor as T
 import numpy as np
 from tqdm import tqdm
 
+import sys
+import os
+sys.path.append(os.path.abspath("../"))
 from neural_style.utils import *
 
 arg_parser = argparse.ArgumentParser()

@@ -5,6 +5,9 @@ from random import sample
 import numpy as np
 from keras.preprocessing.image import list_pictures
 
+import sys
+import os
+sys.path.append(os.path.abspath("../"))
 from neural_style.utils import load_and_preprocess_img
 
 DEFAULT_MAX_QSIZE = 1000
